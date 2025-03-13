@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            background-image: url(bg-1.jpg);
+            background-size: cover;
+            height: 80vh;
+            padding-top: 40px;
+            background-position: center;
+        }
+        .header .nav{
+            justify-content: space-between;
+            display: flex;
+            background: rebeccapurple;
+            padding: 5px 30px;
+            border-radius: 10px;
+            align-items: center;
+            margin: 50px auto 0;
+            width: 80%;
+        }
+        .header .nav .menu a{
+            text-decoration: none;
+            color: #fff;
+            margin-right: 15px;
+        }
+        .header .nav .contact i{
+            color: #fff;
+            display: inline;
+            padding-right: 15px;
+        }
+        .header .banner{
+            text-align: center;
+            padding: 100px;
+            
+        }
+        .header .banner p{
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rebeccapurple;
+            font-weight: 700;
+            
+        }
+        #mau{
+            background: yellow;
+            border-radius: 5px;
+            border: none;
+            width: 150px;
+            height: 30px;
+            padding: 5px 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="menu">
+                <a href="">Home</a>
+                <a href="">About us</a>
+                <a href="">Services</a>
+                <a href="">Projects</a>
+                <a href="">Blog/News</a>
+                <a href="">Shop</a>
+            </div>
+            <div class="contact">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button id="mau"> Get a quote </button>
+            </div>
+        </div>
+        <div class="banner">
+            <p>Realiable Enginering takes many form</p>
+            <button id="mau"> Our Portfolio <i class="fa-solid fa-arrow-right"></i> </button>
+
+        </div>
+    </div>
+</body>
+</html>
